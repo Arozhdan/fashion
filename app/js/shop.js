@@ -4,7 +4,7 @@ $(function () {
     slidesToScroll: 1,
     autoplay: true,
     cssEase: 'linear',
-    infinite:true,
+    infinite: true,
     autoplaySpeed: 4500,
   });
   $('.slick-slide').addClass('shop-slick-slide')

@@ -1,6 +1,6 @@
 .look-intro {
   background-color: #ffffff;
-  min-height: 1000px;
+  max-height: 1000px;
   padding: 80px 50px;
 }
 
@@ -80,7 +80,7 @@
   width: 100%;
 }
 .look-slide{
-  min-height: 800px;
+  max-height: 800px;
   background-color: #e8e8e8;
   padding: 100px 0;
   position: relative;

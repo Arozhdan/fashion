@@ -74,7 +74,7 @@
   left: 10px;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0 10px;
 }
 .menu-bottom-right{
   z-index: 6666;
@@ -87,7 +87,6 @@
   position: relative;
   margin: 1% ;
   width: 47%;
-  height: 96%;
   background-image: url('../../img/menu/menu-base.png');
   background-repeat: no-repeat;
   background-position: center;
