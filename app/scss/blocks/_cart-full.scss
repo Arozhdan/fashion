@@ -1,0 +1,33 @@
+.cartfull{
+  width: 100%;
+  opacity: 1;
+  background-color: #fff;
+  .cart-item-left img{
+    height: 500px;
+  }
+  .cart-item-right{
+    height: 500px;
+  }
+  .total-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .total{
+    width: 40%;
+  }
+  .total-right-firts-naming{
+    font-size: 12px;
+  }
+  .total-right-firts-price{
+    font-size: 10px;
+  }
+  .total-right-second-naming{
+    font-size: 12px;
+  }
+  .total-right-btn{
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 12px;
+  }
+}

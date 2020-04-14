@@ -1,0 +1,131 @@
+.cart{
+  height: 100vh;
+  width: 45%;
+  background-color: rgba($color:$base-color, $alpha: 0.88) ;
+  z-index: 1500;
+  position: fixed;
+  top: 0;
+  right: 15500px;
+}
+.cart-inner{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cart-items-wrapper{
+  overflow-y: scroll;
+  
+}
+.cart-items-wrapper::-webkit-scrollbar {
+  width: 0px;
+}
+.cart-title{
+  font-size: 50px;
+  font-family: $heading-font;
+  margin-bottom: 30px;
+}
+.total-right-firts-naming, .total-right-firts-price{
+  color:#707070 ;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.total-right-second-naming{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 18px;
+
+}
+.total-right-first ,.total-right-second{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.total-right-btn{
+  margin-top: 50px;
+  width: 100%;
+  min-height: 83px;
+  background-color: $black;
+  border-color: transparent;
+  color: $white;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.cart-item{
+  display: flex;  
+}
+.cart-item+.cart-item{
+  margin-top: 35px; 
+}
+.cart-item-left img{
+  max-height: 250px;
+}
+.cart-item-right{
+  margin-left: 15px;
+  display: flex;
+  width: 100%;
+  max-height:250px;
+  padding: 8px 5px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+ flex-direction: column;
+ justify-content: space-between;
+}
+.cart-item-right-first .line{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.cart-item-right-product-title{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400; 
+  margin-bottom: 10px;
+}
+.cart-item-suptitle{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.cart-item-right-second{
+  display: flex;
+  justify-content: space-between;
+}
+.cart-item-right-second-ammount{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.cart-item-right-second-btn{
+  background-color: transparent;
+  border:none;
+  text-transform: uppercase;
+  color: #707070;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+.cart-close-btn{
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  color: $black;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: $figure-font;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.5);
+  }
+}

@@ -1,0 +1,21 @@
+// font-family: 'Podkova', serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+*,*::after, *::before{
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+  font-family: $base-font;
+  overflow-x: hidden;
+}
+.highlight{
+  color:$highlight;
+  .nav-burger{
+    border-top: 2px solid $highlight; 
+    border-bottom: 2px solid $highlight;
+  }
+}

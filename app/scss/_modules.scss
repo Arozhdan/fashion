@@ -1,0 +1,90 @@
+.ls-text{
+  font-size: 20px;
+  letter-spacing: 25px;
+  line-height: 3;
+  font-family: $base-font;
+  color: #707070;
+  text-transform: uppercase;
+} 
+.underlined-title{
+  font-size: 76px;
+  font-family: $figure-font;
+  line-height: 1.2;
+  color: $black;
+}
+.page-title{
+  font-size: 110px;
+  font-family: $heading-font;
+  line-height: 1.1;
+  letter-spacing: 3px;
+  color: $white;
+  max-width: 1200px;  
+}
+.link-w{
+  color: $white;
+  font-size: 20px;
+  font-family: $base-font;
+  text-decoration: none;
+  margin:0 10px;
+}
+
+.section-intro{
+  display: flex;
+  align-items: center;
+  padding: 140px 15px 150px 40px;
+  background-color: $white;
+  .section-intro-left{
+    margin-right: 220px;
+  }
+  a{
+    color: inherit ;
+    text-decoration: none;
+  }
+  .section-subtitle{
+    font-size: 14px;
+    font-family: $base-font;
+    text-transform: uppercase;
+  }
+  .section-title{
+    font-size: 76px;
+    font-family: $figure-font;
+    text-decoration: underline;   
+    padding-top: 100px;
+  }
+}
+
+.product-item-primary {
+  cursor: pointer;
+  width: 45%;
+  img {
+    width: 100%;
+  }
+  .product-item-actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 30px;
+    align-items:center;
+
+  }
+  .product-item-actions-left{
+    font-family: $figure-font;
+    font-size: 28px;
+  }
+  .product-item-additional{
+    font-size: 18px;
+  }
+  .product-item-actions-btn{
+    font-size: 75px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: transparent;
+    font-family: $heading-font;
+    border: none;
+    padding-left: 30px;
+    padding-right: 20px;
+    &:hover{
+      border-left: 1px solid #000;
+    }
+  }
+}

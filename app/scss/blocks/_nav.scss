@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: $heading-font;
+  color: $white;
+  font-size: 14px;
+  align-items: center;
+  vertical-align: middle;
+  letter-spacing: 8px;
+  position: fixed;
+  top: 25px;
+  left: 3%;
+  width: 94%;
+  text-transform: uppercase;
+  z-index: 150;
+  a{
+    color: inherit  ;
+    text-decoration: none;
+  }
+}
+
+.nav-center {
+  cursor: default; 
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span{
+    cursor: pointer;
+    margin-right: 20px;
+  }
+}
+
+.nav-burger {
+  margin-left: 5px;
+  width: 25px;
+  height: 10px;
+  border-top: 2px solid $white;
+  border-bottom: 2px solid $white;
+  cursor: pointer;
+}
